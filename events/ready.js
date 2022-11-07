@@ -8,11 +8,11 @@ client.user.setActivity(`SnorsCode ♥️`)
 
 client.snorscode = new Collection();
 client.aliases = new Collection();
-fs.readdir("./snorscode/", (err, files) => {
+fs.readdir("./commands/", (err, files) => {
 if (err) console.error(err);
 console.log(`${files.length} Toplam Komut!`);
 files.forEach(f => {
-let props = require(`../snorscode/${f}`);
+let props = require(`../commands/${f}`);
     
 console.log(`${props.help.name} Adlandırılmış Komut Çevrimiçi!`);
     
