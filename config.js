@@ -1,5 +1,5 @@
 module.exports = {
-    token: "",
-    prefix: "!"
+    token: "TOKEN GİR BURAYA",
+    prefix: "?"
 }
 
